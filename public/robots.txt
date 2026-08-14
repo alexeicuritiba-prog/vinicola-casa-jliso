@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vinicolacasajliso.com.br/sitemap.xml
