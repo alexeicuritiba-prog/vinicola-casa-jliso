@@ -66,6 +66,7 @@ export function Header() {
               className={`font-sans text-sm tracking-[0.18em] uppercase no-underline transition-colors ${
                 active === item.id ? 'text-gold-bright' : 'text-cream/85 hover:text-gold'
               }`}
+              aria-current={active === item.id ? 'location' : undefined}
             >
               {item.label}
             </a>
