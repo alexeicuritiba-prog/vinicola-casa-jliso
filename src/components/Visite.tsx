@@ -20,7 +20,7 @@ export function Visite() {
         <p className="mt-6 font-sans text-xs tracking-[0.36em] text-terracotta uppercase">
           Visite / Contato
         </p>
-        <h2 className="mt-3 font-serif text-4xl text-burgundy sm:text-5xl">Estamos em Mirassol-SP</h2>
+        <h2 className="mt-3 font-serif text-4xl text-burgundy sm:text-5xl">Mirassol - São Paulo</h2>
         <div className="gold-rule mx-auto mt-6 max-w-xs" />
         <p className="mt-8 font-sans text-lg leading-relaxed text-ink-soft">
           A Vinícola Casa J Liso fica em Mirassol, São Paulo. O canal oficial para acompanhar a casa
