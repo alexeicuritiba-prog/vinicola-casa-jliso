@@ -9,8 +9,8 @@ import { InstagramIcon } from './InstagramIcon'
 import { GlassesMark } from './marks/GlassesMark'
 import { WazeIcon } from './WazeIcon'
 
-const iconButtonClassName =
-  'inline-flex h-12 w-12 items-center justify-center rounded-full border border-gold/45 bg-ink text-gold no-underline transition-colors hover:border-gold hover:text-gold-bright'
+const mapActionButtonClassName =
+  'inline-flex h-12 w-12 items-center justify-center rounded-full no-underline shadow-[0_4px_14px_rgba(26,18,16,0.18)] transition-opacity hover:opacity-90'
 
 export function Visite() {
   return (
@@ -57,18 +57,18 @@ export function Visite() {
               target="_blank"
               rel="noreferrer"
               aria-label="Abrir no Waze"
-              className={iconButtonClassName}
+              className={`${mapActionButtonClassName} bg-[#33CCFF]`}
             >
-              <WazeIcon className="h-6 w-6" />
+              <WazeIcon variant="inverse" className="h-7 w-7" />
             </a>
             <a
               href={INSTAGRAM_URL}
               target="_blank"
               rel="noreferrer"
               aria-label="Abrir Instagram"
-              className={iconButtonClassName}
+              className={`${mapActionButtonClassName} instagram-gradient`}
             >
-              <InstagramIcon className="h-6 w-6" />
+              <InstagramIcon variant="mono" className="h-6 w-6 text-white" />
             </a>
           </div>
         </div>
@@ -79,7 +79,7 @@ export function Visite() {
           rel="noreferrer"
           className="mt-10 inline-flex items-center justify-center gap-3 bg-burgundy px-8 py-4 font-sans text-sm tracking-[0.22em] text-cream uppercase no-underline transition-colors hover:bg-wine"
         >
-          <InstagramIcon className="h-5 w-5" />
+          <InstagramIcon variant="mono" className="h-5 w-5 text-cream" />
           Seguir {INSTAGRAM_HANDLE}
         </a>
       </div>

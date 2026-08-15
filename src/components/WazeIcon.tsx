@@ -1,8 +1,27 @@
+type WazeIconVariant = 'brand' | 'inverse'
+
 type WazeIconProps = {
   className?: string
+  /** brand = Waze-blue ghost with white face. inverse = white ghost for a blue button. */
+  variant?: WazeIconVariant
 }
 
-export function WazeIcon({ className }: WazeIconProps) {
+function wazeColors(variant: WazeIconVariant): { body: string; face: string } {
+  switch (variant) {
+    case 'brand':
+      return { body: '#33CCFF', face: '#FFFFFF' }
+    case 'inverse':
+      return { body: '#FFFFFF', face: '#33CCFF' }
+    default: {
+      const _exhaustive: never = variant
+      throw new Error(`Unhandled Waze icon variant: ${_exhaustive}`)
+    }
+  }
+}
+
+export function WazeIcon({ className, variant = 'brand' }: WazeIconProps) {
+  const { body, face } = wazeColors(variant)
+
   return (
     <svg
       className={className}
@@ -12,17 +31,15 @@ export function WazeIcon({ className }: WazeIconProps) {
       aria-hidden="true"
     >
       <path
-        d="M12 3.1c-4.7 0-8.4 3.5-8.4 7.7 0 2.5 1.3 4.8 3.4 6.2l-.9 3.5 3.9-1.5c.6.2 1.3.3 2 .3 4.7 0 8.4-3.5 8.4-7.7S16.7 3.1 12 3.1Z"
-        stroke="currentColor"
-        strokeWidth="1.6"
-        strokeLinejoin="round"
+        d="M12 2.05c-5.2 0-9.4 3.88-9.4 8.68 0 2.86 1.52 5.4 3.88 6.95l-.98 3.82c-.16.6.5 1.1 1.04.8l4.18-2.08c.4.08.82.12 1.28.12 5.2 0 9.4-3.88 9.4-8.68S17.2 2.05 12 2.05Z"
+        fill={body}
       />
-      <circle cx="9.2" cy="10.2" r="1.15" fill="currentColor" />
-      <circle cx="14.8" cy="10.2" r="1.15" fill="currentColor" />
+      <ellipse cx="9.05" cy="10.15" rx="1.72" ry="2.05" fill={face} />
+      <ellipse cx="14.95" cy="10.15" rx="1.72" ry="2.05" fill={face} />
       <path
-        d="M8.8 13.2c.9 1.3 2 1.9 3.2 1.9s2.3-.6 3.2-1.9"
-        stroke="currentColor"
-        strokeWidth="1.6"
+        d="M8.7 13.55c1 1.55 2.15 2.3 3.3 2.3s2.3-.75 3.3-2.3"
+        stroke={face}
+        strokeWidth="1.55"
         strokeLinecap="round"
       />
     </svg>
