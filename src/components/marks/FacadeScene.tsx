@@ -10,7 +10,7 @@ export function FacadeScene({ className }: FacadeSceneProps) {
       xmlns="http://www.w3.org/2000/svg"
       role="img"
       aria-labelledby="facade-title facade-desc"
-      preserveAspectRatio="xMidYMax slice"
+      preserveAspectRatio="xMidYMin slice"
     >
       <title id="facade-title">Fachada Casa J. Liso</title>
       <desc id="facade-desc">

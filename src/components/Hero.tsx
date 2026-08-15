@@ -23,8 +23,8 @@ export function Hero() {
           Ver os vinhos
         </a>
       </div>
-      <div className="relative mt-auto min-h-[22rem] flex-1 sm:min-h-[28rem]">
-        <FacadeScene className="absolute inset-x-0 bottom-0 h-full w-full" />
+      <div className="relative mt-auto min-h-[max(26rem,28vw)] flex-1 overflow-hidden sm:min-h-[max(32rem,30vw)]">
+        <FacadeScene className="absolute inset-0 h-full w-full" />
       </div>
     </section>
   )
