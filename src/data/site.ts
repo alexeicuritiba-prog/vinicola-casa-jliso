@@ -6,6 +6,12 @@ export const WINERY_NAME = 'Vinícola Casa J Liso'
 export const CITY = 'Mirassol'
 export const STATE = 'São Paulo'
 export const REGION = 'Mirassol/SP'
+export const STREET_ADDRESS =
+  'Rodovia SP-310 Feliciano Salles Cunha, km 456, zona rural, Mirassol/SP'
+export const MAP_LAT = -20.802204
+export const MAP_LNG = -49.547401
+export const MAPS_EMBED_URL = `https://maps.google.com/maps?q=${MAP_LAT},${MAP_LNG}&z=15&output=embed`
+export const WAZE_URL = `https://www.waze.com/ul?ll=${MAP_LAT},${MAP_LNG}&navigate=yes`
 
 export const NAV_ITEMS = [
   { href: '#inicio', id: 'inicio', label: 'Início' },

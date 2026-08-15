@@ -1,4 +1,5 @@
 import { INSTAGRAM_URL } from '../data/site'
+import { InstagramIcon } from './InstagramIcon'
 import { TankerMark } from './marks/TankerMark'
 
 const YEAR = new Date().getFullYear()
@@ -17,8 +18,9 @@ export function Footer() {
           href={INSTAGRAM_URL}
           target="_blank"
           rel="noreferrer"
-          className="font-sans text-sm tracking-[0.16em] text-gold no-underline hover:text-gold-bright"
+          className="inline-flex items-center gap-2 font-sans text-sm tracking-[0.16em] text-gold no-underline hover:text-gold-bright"
         >
+          <InstagramIcon className="h-4 w-4" />
           Instagram
         </a>
       </div>
