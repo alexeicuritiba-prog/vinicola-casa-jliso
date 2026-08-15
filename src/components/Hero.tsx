@@ -14,7 +14,7 @@ export function Hero() {
           Mirassol, São Paulo
         </p>
         <p className="mx-auto mt-4 max-w-xl font-serif text-xl text-cream/95 sm:text-2xl">
-          Vinhos Syrah de Mirassol. Da colheita em caixas azuis à garrafa.
+          Vinhos Casa J Liso, da colheita das uvas para momentos especiais
         </p>
         <a
           href="#vinhos"
