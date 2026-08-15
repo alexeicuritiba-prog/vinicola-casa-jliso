@@ -20,7 +20,7 @@ export function Hero() {
           href="#vinhos"
           className="mt-8 inline-flex items-center border border-gold px-7 py-3 font-sans text-xs tracking-[0.28em] text-cream uppercase no-underline transition-colors hover:bg-gold hover:text-ink"
         >
-          Ver os vinhos
+          conheça nossos vinhos
         </a>
       </div>
       <div className="relative mt-auto min-h-[22rem] flex-1 sm:min-h-[28rem]">
