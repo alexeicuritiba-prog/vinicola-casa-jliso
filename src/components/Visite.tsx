@@ -33,6 +33,13 @@ export function Visite() {
             {STREET_ADDRESS}
           </p>
           <div className="mt-6 overflow-hidden rounded-2xl border-2 border-gold/55 bg-cream-deep shadow-[0_16px_40px_rgba(107,28,40,0.16)]">
+            <img
+              src="/propriedade-aerea.png"
+              alt="Vista aérea da Vinícola Casa J Liso, km 456 da SP-310, Mirassol-SP"
+              className="block h-auto w-full"
+            />
+          </div>
+          <div className="mt-6 overflow-hidden rounded-2xl border-2 border-gold/55 bg-cream-deep shadow-[0_16px_40px_rgba(107,28,40,0.16)]">
             <div className="relative aspect-[4/3] w-full sm:aspect-video">
               <iframe
                 title="Como chegar — Vinícola Casa J Liso, Mirassol-SP"
