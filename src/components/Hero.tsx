@@ -23,8 +23,8 @@ export function Hero() {
           conheça nossos vinhos
         </a>
       </div>
-      <div className="relative mt-auto min-h-[22rem] flex-1 sm:min-h-[28rem]">
-        <FacadeScene className="absolute inset-x-0 bottom-0 h-full w-full" />
+      <div className="relative mt-auto min-h-[max(34rem,38vw)] flex-1 overflow-hidden bg-terracotta sm:min-h-[max(38rem,40vw)]">
+        <FacadeScene className="absolute inset-x-0 top-0 h-full w-full" />
       </div>
     </section>
   )
