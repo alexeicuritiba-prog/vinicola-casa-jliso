@@ -1,6 +1,10 @@
-import { INSTAGRAM_HANDLE, INSTAGRAM_URL } from '../data/site'
+import { INSTAGRAM_HANDLE, INSTAGRAM_URL, MAPS_EMBED_URL, WAZE_URL } from '../data/site'
 import { InstagramIcon } from './InstagramIcon'
 import { GlassesMark } from './marks/GlassesMark'
+import { WazeIcon } from './WazeIcon'
+
+const iconButtonClassName =
+  'inline-flex h-12 w-12 items-center justify-center rounded-full border border-gold/45 bg-ink text-gold no-underline transition-colors hover:border-gold hover:text-gold-bright'
 
 export function Visite() {
   return (
@@ -16,6 +20,46 @@ export function Visite() {
           A Vinícola Casa J Liso fica em Mirassol, São Paulo. O canal oficial para acompanhar a casa
           e falar com a vinícola é o Instagram.
         </p>
+
+        <div className="mt-12 text-center">
+          <h3 className="font-serif text-2xl text-burgundy sm:text-3xl">Como chegar</h3>
+          <p className="mt-2 font-sans text-sm tracking-[0.2em] text-terracotta uppercase">
+            Mirassol, SP
+          </p>
+          <div className="mt-6 overflow-hidden rounded-2xl border-2 border-gold/55 bg-cream-deep shadow-[0_16px_40px_rgba(107,28,40,0.16)]">
+            <div className="relative aspect-[4/3] w-full sm:aspect-video">
+              <iframe
+                title="Como chegar — Vinícola Casa J Liso, Mirassol-SP"
+                src={MAPS_EMBED_URL}
+                className="absolute inset-0 h-full w-full border-0"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen
+              />
+            </div>
+          </div>
+          <div className="mt-5 flex items-center justify-center gap-3">
+            <a
+              href={WAZE_URL}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Abrir no Waze"
+              className={iconButtonClassName}
+            >
+              <WazeIcon className="h-6 w-6" />
+            </a>
+            <a
+              href={INSTAGRAM_URL}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Abrir Instagram"
+              className={iconButtonClassName}
+            >
+              <InstagramIcon className="h-6 w-6" />
+            </a>
+          </div>
+        </div>
+
         <a
           href={INSTAGRAM_URL}
           target="_blank"
