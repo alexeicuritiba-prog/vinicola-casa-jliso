@@ -31,9 +31,6 @@ export function Vinicola() {
 
           <figure className="lg:col-span-5">
             <HarvestCrates className="h-auto w-full" />
-            <figcaption className="mt-3 font-sans text-sm tracking-wide text-ink-soft">
-              Caixas da colheita com a marca CASA J. LISO — ilustração a partir da identidade da casa.
-            </figcaption>
           </figure>
         </div>
 
