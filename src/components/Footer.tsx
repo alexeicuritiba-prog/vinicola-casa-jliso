@@ -20,7 +20,7 @@ export function Footer() {
           rel="noreferrer"
           className="inline-flex items-center gap-2 font-sans text-sm tracking-[0.16em] text-gold no-underline hover:text-gold-bright"
         >
-          <InstagramIcon className="h-4 w-4" />
+          <InstagramIcon variant="brand" className="h-4 w-4" />
           Instagram
         </a>
       </div>
