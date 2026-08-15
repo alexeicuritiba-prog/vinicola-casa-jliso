@@ -1,4 +1,5 @@
 import { FacadeScene } from './marks/FacadeScene'
+import { OfficialLogo } from './marks/OfficialLogo'
 
 export function Hero() {
   return (
@@ -6,13 +7,13 @@ export function Hero() {
       <div className="pointer-events-none absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-ink/40 to-transparent" />
       <div className="grain" />
       <div className="relative mx-auto w-full max-w-3xl px-5 pb-6 pt-28 text-center text-cream sm:pt-32">
-        <p className="font-sans text-xs tracking-[0.42em] uppercase text-cream/90">
+        <h1 className="m-0">
+          <OfficialLogo className="mx-auto block h-28 w-auto sm:h-36 md:h-44" />
+        </h1>
+        <p className="mt-5 font-sans text-xs tracking-[0.42em] uppercase text-cream/90">
           Mirassol, São Paulo
         </p>
-        <h1 className="mt-3 font-serif text-4xl leading-tight sm:text-5xl md:text-6xl">
-          Vinícola Casa J Liso
-        </h1>
-        <p className="mx-auto mt-5 max-w-xl font-serif text-xl text-cream/95 sm:text-2xl">
+        <p className="mx-auto mt-4 max-w-xl font-serif text-xl text-cream/95 sm:text-2xl">
           Vinhos Syrah de Mirassol. Da colheita em caixas azuis à garrafa.
         </p>
         <a

@@ -1,6 +1,6 @@
 import { INSTAGRAM_URL } from '../data/site'
 import { InstagramIcon } from './InstagramIcon'
-import { TankerMark } from './marks/TankerMark'
+import { OfficialLogo } from './marks/OfficialLogo'
 
 const YEAR = new Date().getFullYear()
 
@@ -9,7 +9,7 @@ export function Footer() {
     <footer className="bg-ink text-cream">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 px-5 py-10 text-center sm:flex-row sm:justify-between sm:text-left">
         <div className="flex items-center gap-3">
-          <TankerMark className="h-6 w-12 text-gold" />
+          <OfficialLogo className="block h-9 w-auto sm:h-10" />
           <p className="m-0 font-sans text-sm tracking-wide">
             © {YEAR} Casa J Liso · Mirassol/SP
           </p>
