@@ -1,4 +1,10 @@
-import { INSTAGRAM_HANDLE, INSTAGRAM_URL, MAPS_EMBED_URL, WAZE_URL } from '../data/site'
+import {
+  INSTAGRAM_HANDLE,
+  INSTAGRAM_URL,
+  MAPS_EMBED_URL,
+  STREET_ADDRESS,
+  WAZE_URL,
+} from '../data/site'
 import { InstagramIcon } from './InstagramIcon'
 import { GlassesMark } from './marks/GlassesMark'
 import { WazeIcon } from './WazeIcon'
@@ -23,8 +29,8 @@ export function Visite() {
 
         <div className="mt-12 text-center">
           <h3 className="font-serif text-2xl text-burgundy sm:text-3xl">Como chegar</h3>
-          <p className="mt-2 font-sans text-sm tracking-[0.2em] text-terracotta uppercase">
-            Mirassol, SP
+          <p className="mx-auto mt-3 max-w-md font-sans text-base leading-relaxed text-ink-soft">
+            {STREET_ADDRESS}
           </p>
           <div className="mt-6 overflow-hidden rounded-2xl border-2 border-gold/55 bg-cream-deep shadow-[0_16px_40px_rgba(107,28,40,0.16)]">
             <div className="relative aspect-[4/3] w-full sm:aspect-video">
