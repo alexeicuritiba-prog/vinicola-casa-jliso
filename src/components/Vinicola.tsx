@@ -8,7 +8,7 @@ export function Vinicola() {
       <div className="mx-auto max-w-6xl px-5">
         <p className="font-sans text-xs tracking-[0.36em] text-terracotta uppercase">A vinícola</p>
         <h2 className="mt-3 font-serif text-4xl text-burgundy sm:text-5xl md:text-6xl">
-          Casa J Liso em Mirassol
+          Casa J Liso
         </h2>
         <div className="gold-rule mt-6 max-w-xs" />
 
