@@ -14,18 +14,12 @@ export function Vinicola() {
 
         <div className="mt-10 grid gap-10 lg:grid-cols-12 lg:items-start">
           <div className="space-y-6 font-sans text-lg leading-relaxed text-ink-soft lg:col-span-7">
+            <p>A Vinícola Casa J Liso fica em Mirassol, no interior de São Paulo.</p>
+            <p>É dali que saem as uvas para a elaboração dos tão apreciados vinhos.</p>
             <p>
-              A Vinícola Casa J Liso fica em Mirassol, no interior de São Paulo. É dali que saem os
-              Syrah da casa — e a colaboração A Quatro Mãos com a Vinícola Ferracini.
-            </p>
-            <p>
-              Na colheita, uvas verdes e brancas enchem caixas plásticas azuis impressas com{' '}
+              Na colheita, realizada duas vezes por ano, uvas verdes e rubis enchem as tradicionais
+              caixas azuis impressas com{' '}
               <strong className="font-semibold text-ink">CASA J. LISO</strong>.
-            </p>
-            <p>
-              A identidade visual atravessa a fachada terracota com o nome em cursiva branca e duas
-              taças, o selo circular do caminhão de caixas de uva e o caminhão-tanque dourado que
-              marca os rótulos.
             </p>
           </div>
 
