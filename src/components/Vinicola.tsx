@@ -38,18 +38,11 @@ export function Vinicola() {
         </div>
 
         <div className="mt-16 grid gap-8 sm:grid-cols-2">
-          <figure className="flex flex-col items-center gap-4 bg-ink px-6 py-8">
+          <figure className="flex flex-col items-center bg-ink px-6 py-8">
             <CircularTruckLogo className="h-56 w-56" />
-            <figcaption className="text-center font-sans text-sm text-cream/80">
-              Selo circular: <span lang="pt">Vinicula Casa J Liso</span>, como escrito na marca, sobre
-              o caminhão de caixas.
-            </figcaption>
           </figure>
-          <figure className="flex flex-col items-center gap-4 bg-ink px-6 py-8">
+          <figure className="flex flex-col items-center bg-ink px-6 py-8">
             <OfficialLogo className="h-auto w-full max-w-xs" />
-            <figcaption className="text-center font-sans text-sm text-cream/80">
-              Marca dourada: Casa J Liso e o caminhão-tanque sobre as ondas do vinho.
-            </figcaption>
           </figure>
         </div>
       </div>
