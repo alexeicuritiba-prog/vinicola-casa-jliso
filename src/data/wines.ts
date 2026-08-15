@@ -26,8 +26,6 @@ export const WINES: Wine[] = [
       { label: 'Safra', value: '2024' },
       { label: 'Vinhedo', value: 'Girassol' },
       { label: 'Teor alcoólico', value: '12,5% vol' },
-      { label: 'Volume', value: '750 ml' },
-      { label: 'Rótulo', value: 'Retrato com chapéu, assinatura J. Liso e ícone do caminhão' },
     ],
   },
   {
