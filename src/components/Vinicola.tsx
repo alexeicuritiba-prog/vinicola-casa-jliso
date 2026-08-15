@@ -1,6 +1,6 @@
 import { CircularTruckLogo } from './marks/CircularTruckLogo'
 import { HarvestCrates } from './marks/HarvestCrates'
-import { TankerLogo } from './marks/TankerLogo'
+import { OfficialLogo } from './marks/OfficialLogo'
 
 export function Vinicola() {
   return (
@@ -46,7 +46,7 @@ export function Vinicola() {
             </figcaption>
           </figure>
           <figure className="flex flex-col items-center gap-4 bg-ink px-6 py-8">
-            <TankerLogo className="h-56 w-56" />
+            <OfficialLogo className="h-auto w-full max-w-xs" />
             <figcaption className="text-center font-sans text-sm text-cream/80">
               Marca dourada: Casa J Liso e o caminhão-tanque sobre as ondas do vinho.
             </figcaption>

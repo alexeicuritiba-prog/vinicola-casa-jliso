@@ -1,6 +1,6 @@
 import { useEffect, useId, useState } from 'react'
 import { INSTAGRAM_URL, NAV_ITEMS } from '../data/site'
-import { TankerMark } from './marks/TankerMark'
+import { OfficialLogo } from './marks/OfficialLogo'
 
 export function Header() {
   const [open, setOpen] = useState(false)
@@ -51,11 +51,8 @@ export function Header() {
       }`}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-3 md:py-4">
-        <a href="#inicio" className="group flex items-center gap-3 no-underline">
-          <TankerMark className="h-7 w-14 text-gold" />
-          <span className="font-script text-3xl leading-none text-cream group-hover:text-gold-bright">
-            Casa J. Liso
-          </span>
+        <a href="#inicio" className="shrink-0 no-underline">
+          <OfficialLogo className="block h-10 w-auto md:h-12 lg:h-14" />
         </a>
 
         <nav className="hidden items-center gap-8 md:flex" aria-label="Principal">
