@@ -7,10 +7,6 @@ export function Vinhos() {
       <div className="mx-auto max-w-6xl px-5">
         <p className="font-sans text-xs tracking-[0.36em] text-gold uppercase">Os vinhos</p>
         <h2 className="mt-3 font-serif text-4xl sm:text-5xl md:text-6xl">Syrah da casa</h2>
-        <p className="mt-5 max-w-2xl font-sans text-lg text-cream/85">
-          Cinco rótulos confirmados da Casa J Liso. Os cartões abaixo são composições tipográficas —
-          não são fotos das garrafas.
-        </p>
         <div className="gold-rule mt-6 max-w-xs" />
 
         <div className="mt-12 flex flex-wrap justify-center gap-6">
