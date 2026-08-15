@@ -10,7 +10,7 @@ export function FacadeScene({ className }: FacadeSceneProps) {
       xmlns="http://www.w3.org/2000/svg"
       role="img"
       aria-labelledby="facade-title facade-desc"
-      preserveAspectRatio="xMidYMax slice"
+      preserveAspectRatio="xMidYMin slice"
     >
       <title id="facade-title">Fachada Casa J. Liso</title>
       <desc id="facade-desc">
@@ -43,7 +43,7 @@ export function FacadeScene({ className }: FacadeSceneProps) {
 
       <text
         x="720"
-        y="250"
+        y="345"
         textAnchor="middle"
         fill="#F6EFE3"
         fontFamily="Great Vibes, cursive"
@@ -51,7 +51,7 @@ export function FacadeScene({ className }: FacadeSceneProps) {
       >
         Casa J. Liso
       </text>
-      <g transform="translate(618 268)" fill="none" stroke="#F6EFE3" strokeWidth="2.2">
+      <g transform="translate(618 363)" fill="none" stroke="#F6EFE3" strokeWidth="2.2">
         <path d="M8 8h32l-5 24c-1.6 9-9 14.6-18 13.6C9 44.6 3.4 38 2.6 29L-2 8h10Z" />
         <path d="M16 46v14" />
         <path d="M6 64h20" strokeLinecap="round" />
