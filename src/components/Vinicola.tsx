@@ -45,11 +45,8 @@ export function Vinicola() {
               o caminhão de caixas.
             </figcaption>
           </figure>
-          <figure className="flex flex-col items-center gap-4 bg-ink px-6 py-8">
+          <figure className="flex flex-col items-center bg-ink px-6 py-8">
             <OfficialLogo className="h-auto w-full max-w-xs" />
-            <figcaption className="text-center font-sans text-sm text-cream/80">
-              Marca dourada: Casa J Liso e o caminhão-tanque sobre as ondas do vinho.
-            </figcaption>
           </figure>
         </div>
       </div>
